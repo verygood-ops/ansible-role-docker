@@ -16,7 +16,7 @@
 - name: Install Docker Compose (if configured).
   pip:
     name: docker-compose
-    version: 1.9.0
+    version: "{{docker_compose_version}}"
 
 - name: Install docker-py
   pip:
